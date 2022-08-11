@@ -39,7 +39,18 @@ and add the following commands:
 Line 1 starts the interface at boot. Line 2 assigns a static IP address to the interface. The static address is specified in line 3, whereas lines 4 defines the network submassk. This configuratio has a 24-bit network submask which corresponds to a Class A network (255 possible addresses). Finally, lines 6 defines the name of the network (in this case `PiRobotCar`.
 
 ### Step 2: Install the dhcp server
-
-
+To install the DHCP server execute the following command:
+```
+$ apt-get install isc-dhcp-server
+```
 
 ### Step 3: Configure the dhcp server
+First edit the server configuration file:
+```
+$ sudo nano /etc/default/isc-dhcp-server`
+```
+and add the following line:
+```
+INTERFACES V4 = "wlan0"
+
+Then edit the dhcp daemon configuration file as follows:
