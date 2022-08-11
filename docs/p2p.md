@@ -52,5 +52,15 @@ $ sudo nano /etc/default/isc-dhcp-server`
 and add the following line:
 ```
 INTERFACES V4 = "wlan0"
-
+```
 Then edit the dhcp daemon configuration file as follows:
+```
+
+1   autoritative;
+2   subnet 192.168.100.0 netmask 255.255.255.0 {
+3.    range 192.168.100.150. 192.168.100.170
+4.    option routers 192.168.100.1
+5.    option broadcast-address 192.168.100.255
+6.    default-lease-time 600
+7.    max-lease-time 7200
+5. }
