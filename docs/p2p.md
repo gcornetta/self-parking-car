@@ -17,6 +17,7 @@ To get information about network interfaces type:
 
 ```
 $ ifconfig
+```
 
 ![alt ifconfig output](../screenshots/ifconfig.png "The network interfaces of Raspberry Pi"
 
