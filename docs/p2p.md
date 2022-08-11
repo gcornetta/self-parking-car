@@ -19,7 +19,7 @@ To get information about network interfaces type:
 $ ifconfig
 ```
 
-![alt ifconfig output](../screenshots/ifconfig.png "The network interfaces of Raspberry Pi"
+![alt ifconfig output] ../screenshots/ifconfig.png "The network interfaces of Raspberry Pi"
 
 ### Step 2: Install the dhcp server
 
