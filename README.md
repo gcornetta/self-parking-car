@@ -9,6 +9,7 @@ Welcome to **Raspberry Pi Self-Parking car** tutorial. After completing this tut
 5. set up a *Peer-to-Peer* Wi-Fi network connection between your smartphone and the Raspberry Pi robot car.
 
 ## Tutorial prerequisites
+To understand this tutorial is desirable having some programming experience. A basic knowledge of JavaScript is desirable although is not essential since JavaScript has a very fast learning curve. In the future I am planning to add video tutorials to help novice programmers to successfully implement all the steps of this tutorial.
 
 ## Bill of Materials
 To complete this tutorial you will need the materials and the equipment detailed in the sequel.
