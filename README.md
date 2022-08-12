@@ -8,6 +8,8 @@ Welcome to **Raspberry Pi Self-Parking car** tutorial. After completing this tut
 4. use *Flutter* and *Dart* programming language to write a cross platform mobile application to control the robot car with your voice using the speech recognition APIs (Application Program Interfeces) of your smartphone.
 5. set up a *Peer-to-Peer* Wi-Fi network connection between your smartphone and the Raspberry Pi robot car.
 
+## Tutorial prerequisites
+
 ## Bill of Materials
 To complete this tutorial you will need the materials and the equipment detailed in the sequel.
 
@@ -21,10 +23,22 @@ To complete this tutorial you will need the materials and the equipment detailed
 | 3D printing service  |  approx. $50    | [Treatstock](https://www.treatstock.co.uk)                                                   |
 
 If you don't have a 3D printer, you will need printing services to 3D-print a chassis to place and fasten the Lidar on top of the Robot Car. You don't need tools to assemble the robot car and the chassis since they come out-of-the-box with the Sunfounder kit.
- 
+
+## Parking car simulator
+
 ## Get familiar with the LIDAR
 A Lidar (Light Detection and Ranging)is a remote sensing technique that allows finding the distance of an object or a surface using a laser impulse and measuring the time for the reflected light to return to the receiver.
 
 For this activity I will use [Slamtec RP A1](https://www.slamtec.com/en/Lidar/A1). It is a cheap but performant device that can be easily coneected to a Raspberry Pi using either the GPIO or the USB port. You can buy it on [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) for less rhan $100.
 
 I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` driver. You can find and download the code from my [RP Lidar GitHub Repo](https://github.com/gcornetta/RPLidar). Read carefully the documentation and the prerequisites before downloading it or cloning my repo. 
+
+## Robot car control software
+
+## The mobile app
+
+## Setting up the P2P network
+
+## Putting all together
+
+## Roadmap
