@@ -39,6 +39,8 @@ I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` dri
 
 ## Setting up the P2P network
 
+## Assembling the chassis
+
 ## Putting all together
 
 ## Roadmap
