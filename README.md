@@ -20,8 +20,8 @@ To complete this tutorial you will need the materials and the equipment detailed
 | Sunfounder Robot car |       $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
 | 3D printing service  |  approx. $50    | [Treatstock](https://www.treatstock.co.uk)                                                   |
 
-If you don't have a 3D printer, you will need printing services to 3D-print a chassis to place and fasten the Lidar on top of the Robot Car.
-
+If you don't have a 3D printer, you will need printing services to 3D-print a chassis to place and fasten the Lidar on top of the Robot Car. You don't need tools to assemble the robot car and the chassis since they come out-of-the-box with the Sunfounder kit.
+ 
 ## Get familiar with the LIDAR
 A Lidar (Light Detection and Ranging)is a remote sensing technique that allows finding the distance of an object or a surface using a laser impulse and measuring the time for the reflected light to return to the receiver.
 
