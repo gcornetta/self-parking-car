@@ -47,3 +47,19 @@ I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` dri
 ## Putting all together
 
 ## Roadmap
+Software:
+1. improve the car fitness function.
+2. improve the car genetic algorithm.
+3. improve the `electron` user interface using UI framwework such as [Photon](http://photonkit.com) or [Svelte](https://svelte.dev).
+4. improve the mobile app user interface.
+5. add more commands to the voice interface.
+6. improve simulator graphics using `three.js`
+7. add a Lidar user interface
+
+3D Printing:
+1. improve the chassis.
+2. create a 3D printing video tutorial using [Shapr 3D](https://www.shapr3d.com).
+
+Teaching:
+1. Create video tutorials.
+2. Create course handouts.
