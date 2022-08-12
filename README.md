@@ -1,4 +1,4 @@
-# self-parking-car
+# Self-parking-car
 
 ## Introduction 
 Welcome to **Raspberry Pi Self-Parking car** tutorial. After completing this tutorial you will be able to:
