@@ -28,7 +28,11 @@ If you don't have a 3D printer, you will need printing services to 3D-print a ch
 ## Parking car simulator
 The parking car simulator is an electron application derived from the [self-driving car simulator project](https://www.freecodecamp.org/news/self-driving-car-javascript/) described in **freeCodeCamp**. The code has been modified to work as a cross-platform electron app and to focus on **self parking** rather than self driving. You can find and download the code from my [car simulator GitHub repo](https://github.com/gcornetta/car-simulator). Read carefully the documentation and the prerequisites before downloading it or cloning my repo.
 
+The simulator leverages a simplified *genetic algorithm* to train the neural network and a simple *loss function* to determine the fitness of the model, namely, to establish how well the neural network can park. A population of car is created with random weights and biases. At each iteration only the best car (namely, the one with the lowest losses or the best fitness) is selected. The best car is used as the starting point for the next generation. The process is repeated until it converges to the best possible solution.  
+
 ![alt self parking car](./screenshots/self-parking.gif "Self parking car simulation")
+
+Simulation is the first step necessary to design a self-parking car. The result is an (hopefully) neural network model that must be included in the embedded software running on the **Pi Robot Car**. The simulator generates a **brain.json** file that contains neuron weights and biases of the best neural network (i.e., the *brain*) of the self-parking car. These weight and biases must be loaded in the **Pi Robot Car** neural network. 
 
 ## Getting familiar with the LIDAR
 A Lidar (Light Detection and Ranging) is a remote sensing technique that allows finding the distance of an object or a surface using a laser impulse and measuring the time for the reflected light to return to the receiver.
@@ -44,6 +48,9 @@ I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` dri
 ## The mobile app
 
 ## Setting up the P2P network
+The mobile app running on the smartphone must be connected to the **Pi Robot Car**. The best option is using the WiFi interfaces of the Raspberry Pi that controls the Robot Car and of the smartphone to create a *Peer-to-Peer* network. To do this, you will learn how to install a DHCP (Dynamic Host Configuration Protocol) server on the Raspberry Pi. The DHCP server will be responsible to dynamically assign an IP address to all those devices that connect to the server network. Once the DHCP server has been configured, the new WiFi network will be visible by the smartphone and can be selected in the `settings`menu.
+
+
 
 ## Assembling the chassis
 
