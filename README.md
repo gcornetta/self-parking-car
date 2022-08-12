@@ -50,7 +50,7 @@ I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` dri
 Software:
 1. improve the car fitness function.
 2. improve the car genetic algorithm.
-3. improve the `electron` user interface using UI framwework such as [Photon](http://photonkit.com) or [Svelte](https://svelte.dev).
+3. improve the `electron` user interface using UI framweworks such as [Photon](http://photonkit.com) or [Svelte](https://svelte.dev).
 4. improve the mobile app user interface.
 5. add more commands to the voice interface.
 6. improve simulator graphics using `three.js`
