@@ -13,12 +13,13 @@ To complete this tutorial you will need the materials and the equipment detailed
 
 |         Item         |      Price      |                                  Where to buy                              |
 |----------------------|:---------------:|---------------------------------------------------------------------------:|
-| Raspberry Pi 3B+     |       $48       | [RS-Online](https://uk.rs-online.com/web/p/raspberry-pi/1373331?sra=pmpn)  |
-| 16 GB SD Card.       |       $14.80    | [Amazon](https://www.amazon.com/Raspberry-Pi-16GB-Preloaded-Noobs/dp/B01H5ZNOYG/ref=sr_1_11?keywords=raspberry+pi+sd+card&qid=1660282643&sr=8-11)                                                                 |
-| Spacers              |       $9.99     | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/ref=sr_1_2_sspa?c=ts&keywords=Spacers+%26+Standoffs&qid=1660282893&s=industrial&sr=1-2-spons&ts_id=16413321&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMFk0VVZXUFo3QklBJmVuY3J5cHRlZElkPUEwODE1OTA0M09VQlZSSURVM1FaRCZlbmNyeXB0ZWRBZElkPUEwNzA1ODg1MjE4WFRJMThCV09GOSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)                        |
-| Slamtec RP Lidar A1  |       $99.99    |   [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF)|
-| Sunfounder Robot car |                 |               |
-| 3D printing service  |                     |               |
+| Raspberry Pi 3B+     |       $48       | [RS-Online](https://uk.rs-online.com/web/p/raspberry-pi/1373331?sra=pmpn)                    |
+| 16 GB SD Card.       |       $14.80    | [Amazon](https://www.amazon.com/Raspberry-Pi-16GB-Preloaded-Noobs/dp/B01H5ZNOYG/)            |                                           
+| Spacers              |       $9.99     | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/)      |
+| Slamtec RP Lidar A1  |       $99.99    | [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) |
+| Sunfounder Robot car |       $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
+| 3D printing service  |  approx. $50    | [Treatstock](https://www.treatstock.co.uk)                                                   |
+
 
 ## Get familiar with the LIDAR
 A Lidar (Light Detection and Ranging)is a remote sensing technique that allows finding the distance of an object or a surface using a laser impulse and measuring the time for the reflected light to return to the receiver.
