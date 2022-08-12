@@ -50,7 +50,7 @@ I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` dri
 ## Setting up the P2P network
 The mobile app running on the smartphone must be connected to the **Pi Robot Car**. The best option is using the WiFi interfaces of the Raspberry Pi that controls the Robot Car and of the smartphone to create a *Peer-to-Peer* network. To do this, you will learn how to install a DHCP (Dynamic Host Configuration Protocol) server on the Raspberry Pi. The DHCP server will be responsible to dynamically assign an IP address to all those devices that connect to the server network. Once the DHCP server has been configured, the new WiFi network will be visible by the smartphone and can be selected in the `settings`menu.
 
-
+The steps to follow in order to configure a DHCP server a Raspberry Pi and to create a P2P connection with another device are available [here](https://github.com/gcornetta/self-parking-car/tree/main/docs/p2p.md).
 
 ## Assembling the chassis
 
