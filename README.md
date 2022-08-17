@@ -42,10 +42,13 @@ For this activity I will use [Slamtec RP A1](https://www.slamtec.com/en/Lidar/A1
 I have written a vanilla javascript wrapper on top of the `@tsofist/rplidar` driver. You can find and download the code from my [RP Lidar GitHub Repo](https://github.com/gcornetta/RPLidar). Read carefully the documentation and the prerequisites before downloading it or cloning my repo. 
 
 ## Getting familiar with server-side JavaScript
+We have simulated the parking algorithm and we are now ready to implement on a small prototype. The system is made of a cheap Raspeberry Pi based robotic kit and a smartphone running a simple voice command interface. Raspberry Pi runs a small server that receives commands over a WiFi network and controls the car hardware to perform the parking operation. The Raspberry Pi and Smartphone for a wireless ad hoc network with a P2P (peer to peer) connection. This means that Raspberry Pi and Smartphone can communicate directly, without passing through a router. In this scenario is the Raspberry Pi that has a static IP address and runs a DHCP server to dynamically assign to the client smartphone an IP address into a given range. 
 
-## Robot car control software
+However, we will go through this step by step, decoupling the server logic from the business logic thet controls the car hardware and performs the parking operation. An implementation of the `Node.js` server using the `Fastify` framework can be found [here](https://github.com/gcornetta/rpi-car-test-server). Use it to understand the basic structure of a simple HTTP server and to test the Mobile App by setting up a simple network.
 
 ## The mobile app
+
+## Robot car control software
 
 ## Setting up the P2P network
 The mobile app running on the smartphone must be connected to the **Pi Robot Car**. The best option is using the WiFi interfaces of the Raspberry Pi that controls the Robot Car and of the smartphone to create a *Peer-to-Peer* network. To do this, you will learn how to install a DHCP (Dynamic Host Configuration Protocol) server on the Raspberry Pi. The DHCP server will be responsible to dynamically assign an IP address to all those devices that connect to the server network. Once the DHCP server has been configured, the new WiFi network will be visible by the smartphone and can be selected in the `settings`menu.
