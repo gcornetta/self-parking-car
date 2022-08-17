@@ -30,7 +30,9 @@ The parking car simulator is an electron application derived from the [self-driv
 
 The simulator leverages a simplified *genetic algorithm* to train the neural network and a simple *loss function* to determine the fitness of the model, namely, to establish how well the neural network can park. A population of car is created with random weights and biases. At each iteration only the best car (namely, the one with the lowest losses or the best fitness) is selected. The best car is used as the starting point for the next generation. The process is repeated until it converges to the best possible solution.  
 
-![alt self parking car](./screenshots/self-parking.gif "Self parking car simulation")
+<div align="center">
+<img src="https://github.com/gcornetta/self-parking-car/blob/main/screenshots/self-parking.gif" alt="Self parking car simulation" width="50%">
+</div>
 
 Simulation is the first step necessary to design a self-parking car. The result is an (hopefully) neural network model that must be included in the embedded software running on the **Pi Robot Car**. The simulator generates a **brain.json** file that contains neuron weights and biases of the best neural network (i.e., the *brain*) of the self-parking car. These weight and biases must be loaded in the **Pi Robot Car** neural network. 
 
