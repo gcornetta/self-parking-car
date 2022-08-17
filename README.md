@@ -54,7 +54,7 @@ The mobile app is the client application that connects to the server running of 
 <img src="https://github.com/gcornetta/self-parking-car/blob/main/screenshots/mobile-interface.gif" alt="Self parking mobile interface" width="30%">
 </div>
 
-At this stage of the development, the application is very easy. It is a simple speech recognizer application that is triggered by the keywork `Hello Car`. The word after the keyword is considered a command. The application just recognizes two commands: **park** and  **stop**.
+At this stage of the development, the application is very easy. It is a simple speech recognizer application that is triggered by the keywork `Hello Car`. The word after the keyword is considered a command. The application just recognizes two commands: **park** and  **stop**. You can download the Flutter application from [here](https://github.com/gcornetta/self-parking-car-mobile-app).
 
 ## Robot car control software
 
