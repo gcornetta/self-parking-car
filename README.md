@@ -48,7 +48,7 @@ However, we will go through this step by step, decoupling the server logic from 
 
 ## The mobile app
 <div align="center">
-<img src="https://github.com/gcornetta/self-parking-car/blob/main/figures/nmobile-interface.gif" alt="Self parking mobile interface" width="70%">
+<img src="https://github.com/gcornetta/self-parking-car/blob/main/screenshots/mobile-interface.gif" alt="Self parking mobile interface" width="70%">
 </div>
 
 ## Robot car control software
