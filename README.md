@@ -49,9 +49,11 @@ We have simulated the parking algorithm and we are now ready to implement on a s
 However, we will go through this step by step, decoupling the server logic from the business logic thet controls the car hardware and performs the parking operation. An implementation of the `Node.js` server using the `Fastify` framework can be found [here](https://github.com/gcornetta/rpi-car-test-server). Use it to understand the basic structure of a simple HTTP server and to test the Mobile App by setting up a simple network.
 
 ## The mobile app
+The mobile app is the client application that connects to the server running of the **Raspberry Pi robot car** The client is written in `Dart` using Google Flutter`. Flutter is a mobile development framework that allows the development of cross-platformm mobile applications from a unique codebase (in Dart).
 <div align="center">
 <img src="https://github.com/gcornetta/self-parking-car/blob/main/screenshots/mobile-interface.gif" alt="Self parking mobile interface" width="30%">
 </div>
+At this stage of the development, the application is very easy. It is a simple speech recognizer application that is triggered by the keywork `Hello Car`. The word after the keyword is considered a command. The application just recognizes two commands: **park** and  **stop**.
 
 ## Robot car control software
 
