@@ -47,7 +47,7 @@ We have simulated the parking algorithm and we are now ready to implement on a s
 However, we will go through this step by step, decoupling the server logic from the business logic thet controls the car hardware and performs the parking operation. An implementation of the `Node.js` server using the `Fastify` framework can be found [here](https://github.com/gcornetta/rpi-car-test-server). Use it to understand the basic structure of a simple HTTP server and to test the Mobile App by setting up a simple network.
 
 ## The mobile app
-
+![alt self parking car](./screenshots/mobile-interface.gif "Self parking mobile interface")
 ## Robot car control software
 
 ## Setting up the P2P network
