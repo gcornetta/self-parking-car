@@ -21,9 +21,10 @@ To complete this tutorial you will need the materials and the equipment detailed
 | Spacers                                   |    $9.99    | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/)      |
 | Slamtec RP Lidar A1                       |   $99.99    | [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) |
 | Sunfounder Robot car                      |   $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
-| 2x 18650 3.7V rechargeable Li-ion Battery |   $17.99.   | [Amazon](https://www.amazon.com/Rechargeable-Flashlight-Headlamps-Doorbells-Shipping/dp/B0B7X7WVFN/) |
+| 2x 18650 3.7V rechargeable Li-ion Battery |   $17.99    | [Amazon](https://www.amazon.com/Rechargeable-Flashlight-Headlamps-Doorbells-Shipping/dp/B0B7X7WVFN/) |
 | 3D printing service                       | approx. $50 | [Treatstock](https://www.treatstock.co.uk)                                                   |
 
+Make sure that the 18650 Li-ion batteries are **button-top** and
 If you don't have a 3D printer, you will need printing services to 3D-print a chassis to place and fasten the Lidar on top of the Robot Car. You don't need tools to assemble the robot car and the chassis since they come out-of-the-box with the Sunfounder kit.
 [https://www.amazon.com/3-7v-lithium-ion-battery-18650/](https://www.amazon.com/Intelligent-Charger-Universal-Rechargeable-Batteries/dp/B08GH7RLD1/)
 ## Parking car simulator
