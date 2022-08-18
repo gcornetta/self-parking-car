@@ -57,6 +57,13 @@ The mobile app is the client application that connects to the server running of 
 At this stage of the development, the application is very easy. It is a simple speech recognizer application that is triggered by the keywork `Hello Car`. The word after the keyword is considered a command. The application just recognizes two commands: **park** and  **stop**. You can download the Flutter application from [here](https://github.com/gcornetta/self-parking-car-mobile-app).
 
 ## Robot car control software
+The Raspberry Pi robot car control software is made up of three parts:
+1. the device drivers.
+2. the car control logic.
+3. the server to connect with the client voice app.
+
+The device drivers controls the car hardware, namely the two rear motors and the three servos tocontrol fron rear steering and front camera tilt and pan.
+The servos are controlld by a `PCA9685` 16-channel servo driver. You can download the software driver of PCA9685 from [here](https://github.com/gcornetta/PCA9685.git). The robot car has two DC gear rear motors connected to the back wheels and controlled by a motor driver. The motor driver board has inputs to control the motor direction and a PWM input (from the `PCA9685` board) to control motor speed. You can download the motor software driver from [here](https://github.com/gcornetta/rpi-car-motor-driver.git).
 
 ## Setting up the P2P network
 The mobile app running on the smartphone must be connected to the **Pi Robot Car**. The best option is using the WiFi interfaces of the Raspberry Pi that controls the Robot Car and of the smartphone to create a *Peer-to-Peer* network. To do this, you will learn how to install a DHCP (Dynamic Host Configuration Protocol) server on the Raspberry Pi. The DHCP server will be responsible to dynamically assign an IP address to all those devices that connect to the server network. Once the DHCP server has been configured, the new WiFi network will be visible by the smartphone and can be selected in the `settings`menu.
