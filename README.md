@@ -1,4 +1,4 @@
-# Self-parking-car
+# The JavaScript Self Parking Car
 
 ## Introduction 
 Welcome to **Raspberry Pi Self-Parking car** tutorial. After completing this tutorial you will be able to:
@@ -14,17 +14,18 @@ To understand this tutorial is desirable having some programming experience. A b
 ## Bill of Materials
 To complete this tutorial you will need the materials and the equipment detailed in the sequel.
 
-|         Item         |      Price      |                                  Where to buy                              |
-|----------------------|:---------------:|---------------------------------------------------------------------------:|
-| Raspberry Pi 3B+     |       $48       | [RS-Online](https://uk.rs-online.com/web/p/raspberry-pi/1373331?sra=pmpn)                    |
-| 16 GB SD Card.       |       $14.80    | [Amazon](https://www.amazon.com/Raspberry-Pi-16GB-Preloaded-Noobs/dp/B01H5ZNOYG/)            |                                           
-| Spacers              |       $9.99     | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/)      |
-| Slamtec RP Lidar A1  |       $99.99    | [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) |
-| Sunfounder Robot car |       $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
-| 3D printing service  |  approx. $50    | [Treatstock](https://www.treatstock.co.uk)                                                   |
+|         Item                              |    Price    |                                           Where to buy                                       |
+|-------------------------------------------|:-----------:|---------------------------------------------------------------------------------------------:|
+| Raspberry Pi 3B+                          |    $48      | [RS-Online](https://uk.rs-online.com/web/p/raspberry-pi/1373331?sra=pmpn)                    |
+| 16 GB SD Card.                            |   $14.80    | [Amazon](https://www.amazon.com/Raspberry-Pi-16GB-Preloaded-Noobs/dp/B01H5ZNOYG/)            |                                           
+| Spacers                                   |    $9.99    | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/)      |
+| Slamtec RP Lidar A1                       |   $99.99    | [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) |
+| Sunfounder Robot car                      |   $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
+| 2x 18650 3.7V rechargeable Li-ion Battery |   $17.99.   | [Amazon](https://www.amazon.com/Rechargeable-Flashlight-Headlamps-Doorbells-Shipping/dp/B0B7X7WVFN/) |
+| 3D printing service                       | approx. $50 | [Treatstock](https://www.treatstock.co.uk)                                                   |
 
 If you don't have a 3D printer, you will need printing services to 3D-print a chassis to place and fasten the Lidar on top of the Robot Car. You don't need tools to assemble the robot car and the chassis since they come out-of-the-box with the Sunfounder kit.
-
+[https://www.amazon.com/3-7v-lithium-ion-battery-18650/](https://www.amazon.com/Intelligent-Charger-Universal-Rechargeable-Batteries/dp/B08GH7RLD1/)
 ## Parking car simulator
 The parking car simulator is an electron application derived from the [self-driving car simulator project](https://www.freecodecamp.org/news/self-driving-car-javascript/) described in **freeCodeCamp**. The code has been modified to work as a cross-platform electron app and to focus on **self parking** rather than self driving. You can find and download the code from my [car simulator GitHub repo](https://github.com/gcornetta/car-simulator). Read carefully the documentation and the prerequisites before downloading it or cloning my repo.
 
