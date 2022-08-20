@@ -74,7 +74,7 @@ The mobile app running on the smartphone must be connected to the **Pi Robot Car
 The steps to follow in order to configure a DHCP server a Raspberry Pi and to create a P2P connection with another device are available [here](https://github.com/gcornetta/self-parking-car/tree/main/docs/p2p.md).
 
 ## Assembling the chassis
-
+The .STL (_Standard Tessellation Language_) file with the chassis to mount the Lidar of top of the Raspberry Pi board can be found
 ## Putting all together
 
 ## Roadmap
