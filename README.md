@@ -21,7 +21,7 @@ To complete this tutorial you will need the materials and the equipment detailed
 | Spacers                                   |    $9.99    | [Amazon](https://www.amazon.com/HVAZI-270pcs-Female-Standoff-Assortment/dp/B01N1IUTVT/)      |
 | Slamtec RP Lidar A1                       |   $99.99    | [Amazon](https://www.amazon.com/Slamtec-RPLIDAR-Scanning-Avoidance-Navigation/dp/B07TJW5SXF) |
 | Sunfounder Robot car                      |   $99.99    | [Sunfounder](https://www.sunfounder.com/products/smart-video-car)                            |
-| 2x 18650 3.7V rechargeable Li-ion Battery |   $17.99    | [Amazon](https://www.amazon.com/Rechargeable-Flashlight-Headlamps-Doorbells-Shipping/dp/B0B7X7WVFN/) |
+| 2x 18650 3.7V rechargeable Li-ion Battery |   $17.99    | [Amazon](https://www.amazon.com/Rechargeable-Batteries-Flashlight-Doorbell-Shipping/dp/B0BCGVNLYX/) |
 | 3D printing service                       | approx. $50 | [Treatstock](https://www.treatstock.co.uk)                                                   |
 
 Make sure that the 18650 Li-ion batteries are **button-top** and try to purchase high-capacity batteries (those in the bill of materials are 3200mAh) to have a high operation time before they discharge. You might also want to purcgase a battery charger for the Li-ion batteries. You can find it on  [Amazon](https://www.amazon.com/Intelligent-Charger-Universal-Rechargeable-Batteries/dp/B08GH7RLD1/) for $27.99.
