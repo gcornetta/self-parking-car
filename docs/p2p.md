@@ -47,13 +47,13 @@ $ apt-get install isc-dhcp-server
 ### Step 3: Configure the dhcp server
 First edit the server configuration file:
 ```
-$ sudo nano /etc/default/isc-dhcp-server`
+$ sudo nano /etc/default/isc-dhcp-server
 ```
 and add the following line:
 ```
 INTERFACES V4 = "wlan0"
 ```
-Then edit the dhcp daemon configuration file as follows:
+Then edit the dhcp daemon configuration file (`/etc/dhcp/dhcpd.conf`) as follows:
 ```
 
 1   autoritative;
