@@ -36,7 +36,7 @@ and add the following commands:
 6     wireless-essid PiRobotCar
 7.    wireless-mode ad-hoc
 ```
-Line 1 starts the interface at boot. Line 2 assigns a static IP address to the interface. The static address is specified in line 3, whereas lines 4 defines the network submask. This configuratio has a 24-bit network submask which corresponds to a Class A network (255 possible addresses). Finally, lines 6 defines the name of the network (in this case `PiRobotCar`).
+Line 1 starts the interface at boot. Line 2 assigns a static IP address to the interface. The static address is specified in line 3, whereas lines 4 defines the network submask. This configuration has a 24-bit network submask which corresponds to a Class A network (255 possible addresses). Finally, lines 6 defines the name of the network (in this case `PiRobotCar`).
 
 ### Step 2: Install the dhcp server
 To install the DHCP server execute the following command:
